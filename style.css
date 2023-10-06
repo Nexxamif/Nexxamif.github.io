@@ -4,6 +4,9 @@
     padding: 0;
     background-color: #000;
     color: #fff;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 }
 
 /* Gaya untuk header dan nav */
