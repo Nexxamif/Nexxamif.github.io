@@ -12,23 +12,30 @@ header {
     text-align: center;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
+nav {
+    background-color: #333; /* Warna latar belakang navbar */
+    padding: 10px; /* Ruang dalam navbar */
+}
+
+ul {
+    list-style-type: none; /* Menghapus tanda bullet dari daftar */
     padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+li {
+    display: inline; /* Menampilkan daftar secara horizontal */
+    margin-right: 20px; /* Ruang antara setiap tautan */
 }
 
-nav a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
+a {
+    text-decoration: none; /* Menghapus garis bawah dari tautan */
+    color: white; /* Warna teks tautan */
+    font-weight: bold; /* Ketebalan teks tautan */
 }
 
+a:hover {
+    color: #00aaff; /* Warna tautan saat mouse diarahkan */
+}
 .container {
     max-width: 960px;
     margin: 0 auto;
