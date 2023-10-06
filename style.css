@@ -6,35 +6,74 @@
     color: #fff;
 }
 
+/* Gaya untuk header dan nav */
 header {
-    background-color: #111;
-    padding: 20px 0;
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
     text-align: center;
 }
 
 nav {
-    background-color: #333; /* Warna latar belakang navbar */
-    padding: 10px; /* Ruang dalam navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-ul {
-    list-style-type: none; /* Menghapus tanda bullet dari daftar */
-    padding: 0;
+/* Gaya untuk navbar kiri */
+.navbar-left {
+    margin-left: 20px;
 }
 
-li {
-    display: inline; /* Menampilkan daftar secara horizontal */
-    margin-right: 20px; /* Ruang antara setiap tautan */
+.navbar-left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
 }
 
-a {
-    text-decoration: none; /* Menghapus garis bawah dari tautan */
-    color: white; /* Warna teks tautan */
-    font-weight: bold; /* Ketebalan teks tautan */
+/* Gaya untuk form pencarian dan tombol */
+.navbar-center form {
+    display: flex;
+    align-items: center;
 }
 
-a:hover {
-    color: #00aaff; /* Warna tautan saat mouse diarahkan */
+.navbar-center input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.navbar-center button[type="submit"] {
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Gaya untuk navbar kanan */
+.navbar-right {
+    margin-right: 20px;
+}
+
+.navbar-right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Gaya untuk judul h1 */
+h1 {
+    margin-top: 20px;
+}
+
+/* Gaya untuk footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 .container {
     max-width: 960px;
